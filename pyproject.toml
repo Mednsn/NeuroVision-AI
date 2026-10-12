@@ -1,0 +1,27 @@
+[project]
+name = "neurovision-ai-4th-brief"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "mohamed", email = "medolgholb@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "opencv-python-headless>=5.0.0.93",
+    "pandas>=3.0.6",
+    "pillow>=12.3.0",
+    "scikit-learn>=1.9.1",
+    "seaborn>=0.13.2",
+    "streamlit>=1.66.0",
+    "tensorflow>=2.21.0",
+]
+
+[project.scripts]
+neurovision-ai-4th-brief = "neurovision_ai_4th_brief:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
